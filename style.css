@@ -52,15 +52,16 @@ nav {
     font-size: 20px;
     color: var(--cor0);
     font-family: var(--font-terceira);
-    margin-right: 30px;
+    margin-right: 20px;
     padding-top: 20px;
 }
 
 nav > a {
     color: var(--cor0);
     text-decoration: none;
-    padding-right: 10px;
+    padding-right: 5px;
     text-shadow: 0.05em 0.05em 0.05em var(--cor);
+    font-size: 20px;
 }
 
 nav > a:hover {
@@ -89,20 +90,6 @@ main > article > p {
     line-height: 1.5em;
 }
 
-.pagprincipalparagrafo {
-font-family: var(--fonte-padrao);
-font-size: 20px;
-text-align: justify;
-line-height: 1.5em;
-text-indent: 25px;
-margin: 10px;
-}
-
-.pagsegundaparagrafoum {
-    width: 300px;
-    margin-left: 600px;
-}
-
 main > article > h2 {
     font-size: 25px;
     margin: 20px -20px 20px -20px;
@@ -123,24 +110,11 @@ main img {
 width: 100%;
 }
 
-.pagprincipalfotoum {
-    margin-left: 50px;
-    padding: 30px;
-}
-
 .divprincipal {
     margin: 20px;
     background-color: var(--cor5);
     border-radius: 10px;
     box-shadow: 0.2em 0.2em 0.05em rgba(0, 0, 0, 0.445);
-}
-
-.pagprincipalfotodois {
-padding: 30px;
-}
-
-.pagsegundafotouma {
-    margin-right: 600px;
 }
 
 main h1 {
