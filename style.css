@@ -107,8 +107,7 @@ main > article > h2 {
     background-image: linear-gradient(to right, #78C5F5, #0068A8);
 }
 
-main img {
-
+main > article > img {
     display: block;
     margin: auto;
 }
@@ -145,14 +144,12 @@ main > article > main {
     box-shadow: 0.1em 0.1em 0.05em rgba(0, 0, 0, 0.445);
 }
 
-main > div > .video {
+.video {
     margin: auto;
     padding: 20px;
-    margin-left: 11px;
     position: relative;
-    width: 94%;
+    width: 95%;
     height: 100%;
-    border-radius: 10px;
 }
 
 
